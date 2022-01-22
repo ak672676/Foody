@@ -15,7 +15,6 @@ const PizzaList = ({ pizzaList }) => {
         {pizzaList.map((pizza) => {
           return <PizzaCard key={pizza.id} pizza={pizza} />;
         })}
-        {/* <PizzaCard /> */}
       </div>
     </div>
   );

@@ -12,6 +12,8 @@ export default function Home({ pizzaList }) {
         <meta name="description" content="Best pizza shop" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+        {/* 916163 */}
+        
 
       <Featured />
       <PizzaList pizzaList={pizzaList} />
